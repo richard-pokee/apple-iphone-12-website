@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple iPhone 12 (Renewed)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .price {
+            font-size: 2em;
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .features {
+            margin-bottom: 20px;
+        }
+
+        .features ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        .features li {
+            margin-bottom: 8px;
+        }
+
+        .specs {
+            margin-bottom: 20px;
+        }
+
+        .specs table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .specs th, .specs td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .specs th {
+            background-color: #f2f2f2;
+        }
+
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            background-color: #28a745;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .price {
+                font-size: 1.5em;
+            }
+        }
+
+        /* Interactive components */
+        .chart-container {
+            width: 100%;
+            height: 300px;
+            margin-bottom: 20px;
+            background-color: #eee;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #777;
+            font-style: italic;
+        }
+
+        .chart-container:hover {
+            background-color: #ddd;
+            cursor: pointer;
+        }
+
+        /* Hover Effects */
+        .description:hover, .features:hover, .specs:hover {
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Apple iPhone 12, 64GB, Black - Fully Unlocked (Renewed)</h1>
+        <img src="https://m.media-amazon.com/images/I/51fYXSnSu9L._AC_SL1500.jpg" alt="Apple iPhone 12">
+        <p class="price">$204.45</p>
+        <div class="description">
+            Fully unlocked and compatible with any carrier. Inspected and guaranteed to have minimal cosmetic damage. Tested for battery health and guaranteed to have a minimum battery capacity of 80%.
+        </div>
+
+        <div class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Fully unlocked and compatible with any carrier of choice (e.g. AT&T, T-Mobile, Sprint, Verizon, US-Cellular, Cricket, Metro, etc.).</li>
+                <li>Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm\'s length.</li>
+                <li>Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.</li>
+                <li>The device does not come with headphones or a SIM card. It does include a charging cable that may be generic.</li>
+                <li>Tested for battery health and guaranteed to have a minimum battery capacity of 80%.</li>
+            </ul>
+        </div>
+
+        <div class="specs">
+            <h2>Specifications</h2>
+            <table>
+                <tr>
+                    <th>Brand</th>
+                    <td>Apple</td>
+                </tr>
+                <tr>
+                    <th>Operating System</th>
+                    <td>iOS 16</td>
+                </tr>
+                <tr>
+                    <th>Memory Storage Capacity</th>
+                    <td>64GB</td>
+                </tr>
+                <tr>
+                    <th>Screen Size</th>
+                    <td>6.1 Inches</td>
+                </tr>
+                <tr>
+                    <th>Model Name</th>
+                    <td>iPhone 12</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="chart-container">
+            Interactive Battery Health Chart (Clickable)
+        </div>
+
+        <a href="https://www.amazon.com/Apple-iPhone-12-64GB-Black/dp/B08PP5MSVB" class="buy-button">Buy on Amazon</a>
+    </div>
+
+    <script>
+        // JavaScript for interactive components (example)
+        document.querySelector('.chart-container').addEventListener('click', function() {
+            alert('Battery Health Chart: Showing simulated data. Actual battery health may vary.');
+        });
+    </script>
+</body>
+</html>
